@@ -22,7 +22,7 @@ defineProps<{ data: UserDataWithValue[] }>()
 .item::after {
   content: '';
   display: inline-block;
-  transform: translate(44px, calc(-50% + 24px));
+  transform: translate(2.7rem, calc(-50% + 24px));
   width: 10px;
   height: 33px;
   background-image: url('/public/vector.svg');

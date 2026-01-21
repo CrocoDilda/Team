@@ -12,7 +12,7 @@ onMounted(() => getUsersData())
 </script>
 
 <template>
-  <div class="flex flex-col gap-4 items-center justify-center w-screen h-screen">
+  <div class="flex flex-col gap-4 items-center justify-center w-screen h-screen" v-if="usersData.length">
     <UsersDataWidget :data="usersData" />
 
     <ul>
